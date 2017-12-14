@@ -1,6 +1,5 @@
 package javadesafioorange;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -55,18 +54,11 @@ public class desafioumautomacao {
 		SalaryPage.btnSalarysave(driver).click();
 
 		driver.findElement(By.xpath("//*[@id='salaryMiniList']/div[1]/h1"));
-		System.out.print("Se selecionou irá apresentar essa mensagem");
+		System.out.print("Se selecionou irï¿½ apresentar essa mensagem");
 
 	}
 }
 
-// System.setProperty("webdriver.chrome.driver",
-// "C:\\Novapasta2\\chromedriver.exe");
-// driver = new ChromeDriver();
-// driver.get("http://opensource.demo.orangehrmlive.com/index.php/auth/login");
-// driver.findElement(By.name("txtUsername")).sendKeys("Admin");
-// driver.findElement(By.name("txtPassword")).sendKeys("admin");
-// driver.findElement(By.name("Submit")).click();
 // driver.findElement(By.xpath("//*[@id='menu_pim_viewPimModule']")).click();
 // driver.findElement(By.xpath("//*[@id='menu_pim_addEmployee']")).click();
 // driver.findElement(By.name("firstName")).sendKeys("Rafael");

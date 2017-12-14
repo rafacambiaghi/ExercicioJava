@@ -84,7 +84,6 @@ public class FrequenciaTest extends FrequenciaPage {
 		document.close();
 
 	}
-	
 
 	@Test
 	public void realizaloga() throws IOException {
